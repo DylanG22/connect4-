@@ -15,7 +15,13 @@
   border-radius: 50%;
 
 }
-
+.all {
+  width: 50%;
+  align-self: center;
+  margin: auto;
+  margin-top: 2em;
+  justify-content: center;
+}
 /* column-top is table row of clickable areas for each column */
 
 #column-top td {
@@ -24,4 +30,39 @@
 
 #column-top td:hover {
   background-color: gold;
+}
+
+
+#gameForm {
+  display: flex;
+  margin: auto;
+  margin-bottom: 2em;
+  justify-content: center;
+
+}
+
+#game {
+  width: 60%;
+  align-self: center;
+  margin: auto;
+  
+}
+
+
+#startBtn {
+  padding: 7px;
+  margin: 0.5em;
+}
+
+#p1Input{
+  padding: 7px;
+  margin: 0.5em;
+}
+#p2Input{
+  padding: 7px;
+  margin: 0.5em;
+}
+
+#board{
+  margin: auto;
 }
